@@ -1,6 +1,7 @@
 # closure-library/no-deprecated-apis
 > A rule to forbid use of deprecated methods.
 > - ⭐️ This rule is included in `plugin:closure-library/recommended` preset.
+> - ✒️ The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
 
 A rule to forbid use of deprecated methods.
 
@@ -31,5 +32,5 @@ Nothing.
 
 ## Implementation
 
-- [Rule source](../../lib/rules/closure-library/no-deprecated-apis.js)
-- [Test source](../../tests/lib/rules/closure-library/no-deprecated-apis.js)
+- [Rule source](../../lib/rules/no-deprecated-apis.js)
+- [Test source](../../tests/lib/rules/no-deprecated-apis.js)
