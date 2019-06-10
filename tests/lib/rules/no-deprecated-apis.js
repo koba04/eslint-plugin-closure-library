@@ -6,7 +6,8 @@ const rule = require("../../../lib/rules/no-deprecated-apis");
 new RuleTester().run("no-deprecated-apis", rule, {
   valid: [
     "var foo = goog.array.serialize(data);",
-    "var foo = goog.json.hoge(data);"
+    "var foo = goog.json.hoge(data);",
+    "serialize(data);"
   ],
   invalid: [
     {
