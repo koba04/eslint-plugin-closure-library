@@ -48,7 +48,7 @@ See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 | Rule ID | Description |    |
 |:--------|:------------|:--:|
 | [closure-library/no-deprecated-apis](./docs/rules/no-deprecated-apis.md) | A rule to forbid use of deprecated methods. | ⭐️✒️ |
-| [closure-library/prefer-native-array-methods](./docs/rules/prefer-native-array-methods.md) | Suggest using native Arary methods instead apis Closure Library provides | ⭐️✒️ |
+| [closure-library/prefer-native-array-methods](./docs/rules/prefer-native-array-methods.md) | Suggest using native Arary methods instead apis Closure Library provides | ✒️ |
 
 <!--RULE_TABLE_END-->
 
