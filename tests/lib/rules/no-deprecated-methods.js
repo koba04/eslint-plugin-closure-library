@@ -1,9 +1,9 @@
 "use strict";
 
 const { RuleTester } = require("eslint");
-const rule = require("../../../lib/rules/example-rule");
+const rule = require("../../../lib/rules/no-deprecated-methods");
 
-new RuleTester().run("example-rule", rule, {
+new RuleTester().run("no-deprecated-methods", rule, {
     valid: [
         "var foo = goog.array.serialize(data);",
         "var foo = goog.json.hoge(data);"

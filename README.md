@@ -1,32 +1,4 @@
-
-This is a trial of [GitHub Repository Template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/).
-
-Please update `package.json` after you created new repository with this template.
-
-**File Structure**:
-
-- `docs/rules/` is the directory to put documentation.
-- `lib/rules/` is the directory to put rule definitions.
-- `scripts/` is the directory to put development scripts.
-- `tests/lib/` is the directory to put tests for `lib/`.
-- `.eslintignore` and `.eslintrc.js` are the configuration to lint this repository.
-
-This template uses [mocha](https://www.npmjs.com/package/mocha) and [nyc](https://www.npmjs.com/package/nyc) for tests. If you want to use other tools, costomize it.
-
-There are some development tools.
-
-- `npm run add-rule foo` command adds a rule definition.
-- `npm version` command updates the following stuff by the `meta` property of rules:
-    - the header of `docs/rules/*.md`.
-    - `lib/configs/recommended.js` file.
-    - `lib/index.js` file.
-    - the rule table in `README.md` file.
-
-Below is an example of README.
-
-----
-
-# eslint-plugin-xxxx (template)
+# eslint-plugin-closure-library
 
 <!--
 [![npm version](https://img.shields.io/npm/v/eslint-plugin-xxxx.svg)](https://www.npmjs.com/package/eslint-plugin-xxxx)
@@ -36,14 +8,14 @@ Below is an example of README.
 [![Dependency Status](https://david-dm.org/mysticatea/eslint-plugin-xxxx.svg)](https://david-dm.org/mysticatea/eslint-plugin-xxxx)
 -->
 
-A template for ESLint plugins.
+A ESLint plugin for Closure Library
 
 ## Installation
 
 Use [npm](https://www.npmjs.com/) or a compatibility tool to install.
 
 ```
-$ npm install --save-dev eslint eslint-plugin-xxxx
+$ npm install --save-dev eslint eslint-plugin-closure-library
 ```
 
 ### Requirements
@@ -57,25 +29,25 @@ Write your config file such as `.eslintrc.yml`.
 
 ```yml
 plugins:
-  - xxxx
+  - closure-library
 rules:
-  xxxx/example-rule: error
+  closure-library/no-deprecated-methods: error
 ```
 
 See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 
 ## Configs
 
-- `xxxx/recommended` ... enables the recommended rules.
+- `closure-library/recommended` ... enables the recommended rules.
 
 ## Rules
 
 <!--RULE_TABLE_BEGIN-->
-### Stylistic Issues
+### Best Practices
 
 | Rule ID | Description |    |
 |:--------|:------------|:--:|
-| [xxxx/example-rule](./docs/rules/example-rule.md) | An example rule. | ⭐️ |
+| [closure-library/no-deprecated-methods](./docs/rules/no-deprecated-methods) | A rule to forbid use of deprecated methods. | ⭐️ |
 
 <!--RULE_TABLE_END-->
 
