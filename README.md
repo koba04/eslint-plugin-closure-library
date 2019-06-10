@@ -31,7 +31,7 @@ Write your config file such as `.eslintrc.yml`.
 plugins:
   - closure-library
 rules:
-  closure-library/no-deprecated-methods: error
+  closure-library/no-deprecated-apis: error
 ```
 
 See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
@@ -47,7 +47,7 @@ See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
 
 | Rule ID | Description |    |
 |:--------|:------------|:--:|
-| [closure-library/no-deprecated-methods](./docs/rules/no-deprecated-methods) | A rule to forbid use of deprecated methods. | ⭐️ |
+| [closure-library/no-deprecated-apis](./docs/rules/no-deprecated-apis) | A rule to forbid use of deprecated methods. | ⭐️ |
 
 <!--RULE_TABLE_END-->
 
