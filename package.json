@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-closure-library",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A ESlint plugin for Closure Library",
   "engines": {
     "node": ">=8.10.0"
   },
@@ -36,17 +36,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/???/eslint-plugin-xxxx.git"
+    "url": "git+https://github.com/koba04/eslint-plugin-closure-library.git"
   },
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "",
+  "author": "koba04",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/???/eslint-plugin-xxxx/issues"
+    "url": "https://github.com/koba04/eslint-plugin-closure-library/issues"
   },
-  "homepage": "https://github.com/???/eslint-plugin-xxxx#readme"
+  "homepage": "https://github.com/koba04/eslint-plugin-closure-library#readme"
 }
