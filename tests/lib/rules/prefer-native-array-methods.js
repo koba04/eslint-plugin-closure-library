@@ -32,6 +32,13 @@ new RuleTester().run("prefer-native-apis", rule, {
       code: "goog.array.some(list, function(el) { return el })",
       output: "Array.prototype.some.call(list, function(el) { return el })",
       errors: ["use Array.prototype.some instead of goog.array.some."]
+    },
+    {
+      code:
+        "goog.array.forEach(/** @type {Array} */(list), function(el) { return el })",
+      output:
+        "Array.prototype.forEach.call(/** @type {Array} */(list), function(el) { return el })",
+      errors: ["use Array.prototype.forEach instead of goog.array.forEach."]
     }
   ]
 });
