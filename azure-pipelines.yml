@@ -14,7 +14,7 @@ strategy:
     node10_linux:
       imageName: "ubuntu-latest"
       node_version: "10.x"
-    node10_linux:
+    node12_linux:
       imageName: "ubuntu-latest"
       node_version: "12.x"
     node12_win:
