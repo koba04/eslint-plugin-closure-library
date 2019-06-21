@@ -12,7 +12,7 @@
   "scripts": {
     "add-rule": "node scripts/add-rule",
     "lint": "eslint lib scripts tests",
-    "update": "node scripts/update",
+    "update": "node scripts/update && git add README.md docs",
     "pretest": "npm run -s lint",
     "release": "npm run lint && npm test && npm run update && standard-version",
     "release:dryrun": "standard-version --dry-run",
