@@ -1,7 +1,7 @@
 # eslint-plugin-closure-library
 
 [![npm version](https://img.shields.io/npm/v/eslint-plugin-closure-library.svg)](https://www.npmjs.com/package/eslint-plugin-closure-library)
-[![Build Status](https://travis-ci.org/koba04/eslint-plugin-closure-library.svg?branch=master)](https://travis-ci.org/koba04/eslint-plugin-closure-library)
+[![Build Status](https://dev.azure.com/koba0004/CI%20for%20GitHub%20repositories/_apis/build/status/koba04.eslint-plugin-closure-library?branchName=master)](https://dev.azure.com/koba0004/CI%20for%20GitHub%20repositories/_build/latest?definitionId=1&branchName=master)
 [![Dependency Status](https://david-dm.org/koba04/eslint-plugin-closure-library.svg)](https://david-dm.org/koba04/eslint-plugin-closure-library)
 
 <!--
@@ -33,6 +33,13 @@ plugins:
   - closure-library
 rules:
   closure-library/no-deprecated-apis: error
+  closure-library/prefer-native-array-methods: error
+```
+
+or
+
+```yml
+extends: closure-library/recommended
 ```
 
 See also [Configuring ESLint](https://eslint.org/docs/user-guide/configuring).
