@@ -7,6 +7,7 @@ trigger:
   - master
 
 strategy:
+  maxParallel: 5
   matrix:
     node8_linux:
       imageName: "ubuntu-latest"
