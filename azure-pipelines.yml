@@ -4,15 +4,30 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- master
+  - master
+
+strategy:
+  matrix:
+    node8_linux:
+      imageName: "ubuntu-latest"
+      node_version: "^8.10.0"
+    node10_linux:
+      imageName: "ubuntu-latest"
+      node_version: "10.x"
+    node10_linux:
+      imageName: "ubuntu-latest"
+      node_version: "12.x"
+    node12_win:
+      imageName: "windows-2019"
+      node_version: "12.x"
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: $(imageName)
 
 steps:
 - task: NodeTool@0
   inputs:
-    versionSpec: '10.x'
+    versionSpec: $(node_version)
   displayName: 'Install Node.js'
 
 - script: |
