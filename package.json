@@ -14,10 +14,10 @@
     "lint": "eslint lib scripts tests",
     "update": "node scripts/update",
     "pretest": "npm run -s lint",
+    "release": "run-s build lint test && standard-version",
+    "release:dryrun": "standard-version --dry-run",
     "test": "nyc mocha \"tests/lib/**/*.js\" --reporter progress",
-    "preversion": "npm test",
-    "version": "npm run -s update",
-    "postversion": "git push && git push --tags"
+    "version": "npm run -s update"
   },
   "peerDependencies": {
     "eslint": ">=5.16.0"
@@ -32,7 +32,8 @@
     "eslint-plugin-node": "^9.1.0",
     "mocha": "^6.1.4",
     "nyc": "^14.1.1",
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "standard-version": "^6.0.1"
   },
   "repository": {
     "type": "git",
