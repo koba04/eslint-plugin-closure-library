@@ -1,5 +1,6 @@
 # closure-library/prefer-native-array-methods
 > Suggest using native Arary methods instead apis Closure Library provides
+> - ⭐️ This rule is included in `plugin:closure-library/recommended` preset.
 > - ✒️ The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
 
 A rule to prefer native array methods instead of methods Closure Library provides.
