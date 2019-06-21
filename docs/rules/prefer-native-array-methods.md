@@ -9,6 +9,18 @@ A rule to prefer native array methods instead of methods Closure Library provide
 This rule prefers to use native array methods if it can be used.
 This rule supports `--fix` option, the rule fixes incorrect code by using `Array.prototype.xxx.call(list, ...)` style, which is to support ArrayLike objects.
 
+Currently, the target methods are the below.
+
+- every
+- filter
+- forEach
+- indexOf
+- lastIndexOf
+- map
+- reduce
+- reduceRight
+- some
+
 Examples of **incorrect** code:
 
 ```js
