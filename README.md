@@ -1,11 +1,12 @@
 # eslint-plugin-closure-library
 
+[![npm version](https://img.shields.io/npm/v/eslint-plugin-closure-library.svg)](https://www.npmjs.com/package/eslint-plugin-closure-library)
+[![Build Status](https://travis-ci.org/koba04/eslint-plugin-closure-library.svg?branch=master)](https://travis-ci.org/koba04/eslint-plugin-closure-library)
+[![Dependency Status](https://david-dm.org/koba04/eslint-plugin-closure-library.svg)](https://david-dm.org/koba04/eslint-plugin-closure-library)
+
 <!--
-[![npm version](https://img.shields.io/npm/v/eslint-plugin-xxxx.svg)](https://www.npmjs.com/package/eslint-plugin-xxxx)
+[![Coverage Status](https://codecov.io/gh/koba04/eslint-plugin-closure-library/branch/master/graph/badge.svg)](https://codecov.io/gh/koba04/eslint-plugin-closure-library)
 [![Downloads/month](https://img.shields.io/npm/dm/eslint-plugin-xxxx.svg)](http://www.npmtrends.com/eslint-plugin-xxxx)
-[![Build Status](https://travis-ci.org/mysticatea/eslint-plugin-xxxx.svg?branch=master)](https://travis-ci.org/mysticatea/eslint-plugin-xxxx)
-[![Coverage Status](https://codecov.io/gh/mysticatea/eslint-plugin-xxxx/branch/master/graph/badge.svg)](https://codecov.io/gh/mysticatea/eslint-plugin-xxxx)
-[![Dependency Status](https://david-dm.org/mysticatea/eslint-plugin-xxxx.svg)](https://david-dm.org/mysticatea/eslint-plugin-xxxx)
 -->
 
 A ESLint plugin for Closure Library
