@@ -4,11 +4,6 @@
 [![Build Status](https://dev.azure.com/koba0004/CI%20for%20GitHub%20repositories/_apis/build/status/koba04.eslint-plugin-closure-library?branchName=master)](https://dev.azure.com/koba0004/CI%20for%20GitHub%20repositories/_build/latest?definitionId=1&branchName=master)
 [![Dependency Status](https://david-dm.org/koba04/eslint-plugin-closure-library.svg)](https://david-dm.org/koba04/eslint-plugin-closure-library)
 
-<!--
-[![Coverage Status](https://codecov.io/gh/koba04/eslint-plugin-closure-library/branch/master/graph/badge.svg)](https://codecov.io/gh/koba04/eslint-plugin-closure-library)
-[![Downloads/month](https://img.shields.io/npm/dm/eslint-plugin-xxxx.svg)](http://www.npmtrends.com/eslint-plugin-xxxx)
--->
-
 A ESLint plugin for Closure Library
 
 ## Installation
