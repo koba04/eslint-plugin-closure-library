@@ -59,7 +59,7 @@ This plugin follows [Semantic Versioning](http://semver.org/) and [ESLint's Sema
 
 ## Changelog
 
-- [GitHub Releases]()
+- [CHANGELOG.md](./CHANGELOG.md)
 
 ## Contributing
 
