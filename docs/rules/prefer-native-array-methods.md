@@ -21,6 +21,7 @@ Currently, the target methods are the below.
 - reduce
 - reduceRight
 - some
+- concat (`goog.array.concat` and `goog.array.join`)
 
 Examples of **incorrect** code:
 

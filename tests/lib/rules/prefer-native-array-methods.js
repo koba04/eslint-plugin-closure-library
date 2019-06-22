@@ -39,6 +39,16 @@ new RuleTester().run("prefer-native-apis", rule, {
       output:
         "Array.prototype.forEach.call(/** @type {Array} */(list), function(el) { return el })",
       errors: ["use Array.prototype.forEach instead of goog.array.forEach."]
+    },
+    {
+      code: "goog.array.concat(list, list2, list3)",
+      output: "Array.prototype.concat.call(list, list2, list3)",
+      errors: ["use Array.prototype.concat instead of goog.array.concat."]
+    },
+    {
+      code: "goog.array.join(list, list2, list3)",
+      output: "Array.prototype.concat.call(list, list2, list3)",
+      errors: ["use Array.prototype.concat instead of goog.array.join."]
     }
   ]
 });
