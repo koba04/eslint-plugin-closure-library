@@ -7,20 +7,20 @@ new RuleTester().run("no-unused-namespaces", rule, {
   valid: [
     `
     goog.require('goog.array');
-    goog.array.forEach([1, 2, 3], e => {
+    goog.array.forEach([1, 2, 3], function(e) {
       console.log(e);
     });
     `,
-    "[1,2,3].forEach(e => console.log(e));"
+    "[1,2,3].forEach(function(e) { console.log(e) });"
   ],
   invalid: [
     {
       code: `
       goog.require('goog.array');
-      [1,2,3].forEach(e => console.log(e));
+      [1,2,3].forEach(function(e) { console.log(e) });
       `,
-      output: "[1,2,3].forEach(e => console.log(e));",
-      errors: ["goog.array is an unused namespace."]
+      // output: "[1,2,3].forEach(function(e) => { console.log(e) });",
+      errors: ["goog.array is not used anywhere."]
     }
   ]
 });
