@@ -11,7 +11,19 @@ new RuleTester().run("no-unused-namespaces", rule, {
       console.log(e);
     });
     `,
-    "[1,2,3].forEach(function(e) { console.log(e) });"
+    "[1,2,3].forEach(function(e) { console.log(e) });",
+    `
+    goog.require('goog.array');
+    cb(goog.array.forEach)
+    `,
+    `
+    goog.require('goog.array');
+    var forEach = goog.array.forEach;
+    `,
+    `
+    goog.require('goog.array');
+    var garray = goog.array;
+    `
   ],
   invalid: [
     {
