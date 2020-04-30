@@ -31,7 +31,7 @@
     "eslint-plugin-eslint-plugin": "^2.1.0",
     "eslint-plugin-node": "^9.1.0",
     "mocha": "^6.2.3",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.1",
     "prettier": "^1.18.2",
     "standard-version": "^6.0.1"
   },
